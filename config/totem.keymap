@@ -53,7 +53,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping_term_ms = <125>;
+            tapping-term-ms = <125>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -63,7 +63,7 @@
 
             combo_layer3 {
                 timeout-ms = <50>;
-                key-positions = <38 39>;
+                key-positions = <36 37>;
                 bindings = <&mo 3>;
             };
         };
