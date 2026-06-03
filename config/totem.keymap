@@ -38,7 +38,7 @@
                 label = "square_brackets";
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
-                bindings = <&macro_tap>, <&kp LBKT &kp RBKT>;
+                bindings = <&macro_tap>, <&kp LBKT &kp RBKT &kp LEFT>;
             };
 
             curlbkt: curl_brackets {
